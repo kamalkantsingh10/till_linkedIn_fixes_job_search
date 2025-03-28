@@ -1,0 +1,104 @@
+.lpfjs-sidebar-container {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    z-index: 9999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display: flex;
+  }
+  
+  /* Toggle button */
+  .lpfjs-toggle-btn {
+    width: 32px;
+    height: 32px;
+    background-color: #0A66C2;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+  }
+  
+  .lpfjs-toggle-btn:hover {
+    background-color: #0e4e8c;
+  }
+  
+  /* Sidebar */
+  .lpfjs-sidebar {
+    width: 25%;
+    max-width: 300px;
+    min-width: 200px;
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .lpfjs-sidebar.lpfjs-collapsed {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  /* Sidebar header */
+  .lpfjs-sidebar-header {
+    background-color: #0A66C2;
+    color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .lpfjs-sidebar-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Sidebar content */
+  .lpfjs-sidebar-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Heading */
+  .lpfjs-heading {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .lpfjs-btn {
+    background-color: #0A66C2;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    width: 100%;
+  }
+  
+  .lpfjs-btn:hover {
+    background-color: #084e93;
+  }
+  
+  .lpfjs-btn:disabled {
+    background-color: #0a66c2;
+    opacity: 0.7;
+    cursor: default;
+  }
+  

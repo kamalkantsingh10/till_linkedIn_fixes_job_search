@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LPFJS Settings</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 16px;
+      font-family: system-ui, sans-serif;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 16px;
+      color: #0A66C2;
+    }
+    .form-group {
+      margin-bottom: 16px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button {
+      background-color: #0A66C2;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 16px;
+      cursor: pointer;
+      font-weight: 600;
+      width: 100%;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #084e93;
+    }
+    .status {
+      margin-top: 16px;
+      padding: 8px;
+      border-radius: 4px;
+      text-align: center;
+    }
+    .success {
+      background-color: #D5F5E3;
+      color: #196F3D;
+    }
+    .error {
+      background-color: #FADBD8;
+      color: #943126;
+    }
+  </style>
+</head>
+<body>
+  <h1>LPFJS - Settings</h1>
+  
+  <div class="form-group">
+    <label for="apiUrl">Backend API URL</label>
+    <input type="text" id="apiUrl" placeholder="Enter your Backend API URL">
+  </div>
+  
+  <button id="saveSettings">Save Settings</button>
+  
+  <div id="status" class="status" style="display: none;"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

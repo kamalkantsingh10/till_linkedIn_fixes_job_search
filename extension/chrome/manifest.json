@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "LPFJS - LinkedIn Please Fix Job Search",
+    "version": "1.0",
+    "description": "Enhanced LinkedIn tools for profiles and job search",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://*.linkedin.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
