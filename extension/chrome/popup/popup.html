@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LPFJS</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 16px;
+      width: 280px;
+      background-color: #f3f2ef;
+      color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    
+    .header h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+    
+    .status-indicator {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #dc3545;
+      margin-right: 5px;
+    }
+    
+    .status-indicator.connected {
+      background-color: #28a745;
+    }
+    
+    .status-text {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    
+    .card h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .button {
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+      border-radius: 16px;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.2s;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    
+    .button:last-child {
+      margin-bottom: 0;
+    }
+    
+    .button:hover {
+      background-color: #004182;
+    }
+    
+    .button:active {
+      background-color: #00295c;
+    }
+    
+    .button.secondary {
+      background-color: transparent;
+      color: #0a66c2;
+      border: 1px solid #0a66c2;
+    }
+    
+    .button.secondary:hover {
+      background-color: rgba(10, 102, 194, 0.1);
+    }
+    
+    .footer {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      margin-top: 8px;
+    }
+    
+    .settings-link {
+      color: #0a66c2;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .settings-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>LinkedIn Pro Tools</h1>
+    <div>
+      <span id="status-indicator" class="status-indicator"></span>
+      <span id="status-text" class="status-text">Checking connection...</span>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h2>Quick Actions</h2>
+    <button id="toggle-sidebar" class="button">Toggle Sidebar</button>
+    <button id="check-page" class="button">Identify Current Page</button>
+  </div>
+  
+  <div class="card">
+    <h2>Navigation</h2>
+    <button id="go-to-jobs" class="button">Go to Jobs</button>
+    <button id="go-to-connections" class="button">Go to Connections</button>
+  </div>
+  
+  <div class="card">
+    <h2>Tools</h2>
+    <button id="view-saved-jobs" class="button secondary">View Saved Jobs</button>
+    <button id="view-analytics" class="button secondary">Application Analytics</button>
+  </div>
+  
+  <div class="footer">
+    <a id="open-settings" class="settings-link">Settings</a> | 
+    <span id="version">v1.0.0</span>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "till linkedin fixes job search"
+version = "0.1.0"
+description = "this is a package that helps me in my job search"
+authors = ["Kamal Singh <kamalkantsingh10@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+notion-client = "^2.3.0"
+pyyaml = "^6.0.2"
+langchain = "^0.3.22"
+langchain-anthropic = "^0.3.10"
+langchain-openai = "^0.3.11"
+langchain-groq = "^0.3.2"
+langchain-community = "^0.3.20"
+langchain-ollama = "^0.3.0"
+python-dotenv = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

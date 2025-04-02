@@ -1,0 +1,72 @@
+bullets_to_update:
+  - role: SENIOR TECHNICAL PROGRAM MANAGER, Research Science & Technology Lab, Luxembourg Nov 2021 - Jun 2024
+    number_bullets: 5
+    text: |
+      Owned delivery of next-gen ML/Optimization products and algorithms that reduced transportation costs and improved delivery speeds for global markets including NA, EU and Japan. Led a team of 3 TPM and 2 PMs. Responsibilities included technical strategy, execution of 5 workstreams, alignment of global stakeholders, and establishing success metrics. 
+      Owned  execution of 3FY roadmap to upgrade and connect ML/Optimization models to design middle-mile networks across NA,EU and Japan;. year 1 resulted in savings of $30M Japan and $28M in EU. Also plan was to create extensive data collection and analysis using error detection and collection. We were also supposed to create a extensive dashboard showing 160+ metric. 5 technical workstreams with a team of 3 TPMs and 2 PMs, keeping 45+ ML engineers/scientists across 8 global teams unblocked and aligned.
+      Developed and aligned 3FY roadmap at amazon to build next-gen ML/optimization ecosystem  to transform network planning; aligned 45+ business teams on this plan projected annual savings > $350M/yr
+      Merged 15 evaluation models to a single pipeline that helped create one standard platform for all the analytics related to evaluate network plan against; estimated impact 50Mn. We created a pipeline that sourced data from 35 new sources cleaned and made ready to process
+      designed a Data collection and governance system to collect data from 500+ teams/individuals across EU and set up mechanisms to review and validate with goal of improving data inputs to the Optimization Models 
+      Led collaboration with 40+ stakeholder teams including finance, operations, planning across NA, EU, and Japan.
+      LED Technical development of 5 technical workstreams with a  PMO of 3 Technical Program managers and 2 Product Managers, keeping 45+ ML engineers/scientists across 8 global teams unblocked and aligned.
+      Launched in Japan, achieved entitlement of $30M in the first year through improved network speed and cost. This was done within 6 months. We project to deploy another 50 min in the year 2
+      Prototyped a framework to execute ML/Optimization models with hundreds of 'what-if' scenarios, resulting in a network plan $14M cheaper (vs baseline). This showed a interactive dashboard that network planners can use to evaluate these and choose the best one. This impacted decision based on data backed on more than 100 metrics. We did a simulation with 10000 runs that lead to sensitivity analysis of various factors like transportations buildings
+      Led monthly/quarterly reviews with senior stakeholders including VPs in JP, EU and NA with presence of 40 stakeholder teams
+      Technical Stack: AWS (EC2, S3, Lambda, Containerization, CloudWatch), Python, SQL, Optimization Tools, CI/CD, Power BI
+
+  - role: TECHNICAL PROGRAM MANAGER, Optimization & ML Research Lab, Luxembourg | Jun 2019 - Nov 2021
+    number_bullets: 4
+    text: |
+      Owned complete product lifecycle from research to production of optimization models/algorithms to transform network planning and decision making in the EU. Responsible for establishing development standards, deployment standards and  technical governance framework in the newly established dev team in the EU.
+      Owned program to streamline and enhance products for digitization of network planning, eliminating inefficiencies and automating manual processes. Estimated savings of $106M/yr and 16 headcounts in year 1.
+      Orchestrated EU-wide program rollout collaborating with 22 business teams and improved ETL processes simplifying data collection and processing ; $35M first year savings achieved.
+      Built 3 new models Ingested 30+ sources, created 50+ dashboards and 5 end-2-end pipelines. Automated 70% (21 days to 4 days) of manual tasks in network planning workflows
+      Set up development standard in a 5 member and implemented Agile (Scrum) 
+      Technical Stack: AWS (EC2, S3, Lambda, SageMaker, Containerization), Python, SQL, Optimization Tools, JAVA, Tableau
+
+  - role: PRODUCT DEVELOPMENT LEAD, Innovation & Digital, Zurich | Jul 2018 - Aug 2018
+    number_bullets: 2
+    text: |
+      Led discovery and validation phase for new compliance automation product with a group of 2 research scientists, 2 compliance managers and 2 UX designers at SIX. Responsible for customer research, solution design, and business case development for digital compliance tools aimed at the Swiss banking sector.
+      Interviewed 15+ compliance officers across Swiss Banks to identify their pain points; proposed new product offerings with aim  to reduce effort in responding to regulations by 50%.
+      Developed business case for a compliance assistant (JACOB), securing CHF 400k investment from leadership for MVP.
+
+  - role: TECH PROJECT LEAD, Regulatory Reporting, Pune | Feb 2017 - Sep 2017
+    number_bullets: 3
+    text: |
+      Led development team implementing regulatory reporting frameworks (MiFID II, EMIR 2.0, FinFrag) for UBS Asset Management. Responsible for technical delivery and stakeholder coordination across Switzerland and UK offices.Delivered in 6 months only with 0 prod defect
+      Built a new team of 15 ETL developers, Created structured onboarding program reducing new developer training time from 4 weeks to 10 days.
+      Established effective collaboration with AM stakeholders across EMEA region ensuring alignment between technical implementation and business requirements.
+      We connected a ETL data connections from 35+ sources and then process to create a accurate reports for the EU regulators
+      Technical Stack: Informatica, Autosys, JAVA, Oracle, PLSQL, FIX, Windows Batch Scripting
+
+  - role: CTB PROJECT MANAGER, Trade Monitoring & Compliance, London | Feb 2016 - Feb 2017
+    number_bullets: 3
+    text: |
+      Managed 11-member team delivering compliance applications enhancement with CHF 1.1M annual budget. Responsible for system reliability improvements and automation of trade monitoring workflows along with reporting to AM leadership.
+      Reduced outages by 25% and cut maintenance tickets to 50% by a series of bug-fixes.
+      Automated 100+ compliance checks enabling portfolio managers to handle 20% more AUM without additional headcount.
+      Saved CHF 350K annually by making data available to users 2 hours early by a complete redesign of ETL processes.
+      Technical Stack: Informatica, Fidessa Sentinel, Oracle, Windows Batch Scripting, Autosys, Oracle, PLSQL, JAVA
+
+  - role: opentravelerproject.com (link) , July 2024- Present
+    number_bullets: 3
+    text: |
+      opentravelerproject.com (link) , July 2024- Present
+      Leading development of a stealth-mode community platform that leverages crowdsourced travel experiences and AI to create free but professional-quality travel guides for .
+      Built the first prototype (thegeektraveler.com) that demonstrated viability by reducing content creation time from 3 days to 2 hours per guide and improving accuracy by 40%.
+      Engineered agentic AI system that autonomously collects, validates, and synthesizes travel data from multiple sources, reducing production costs by 88% (from $2.10 to $0.25 per guide) while maintaining quality metrics above 85%.
+      Secured participation agreements with 9 travellers across Europe to build initial content library and set up community.
+      Developing proprietary knowledge-graph architecture to connect traveler experiences with location data, creating unique, authentic, and verifiable travel content.
+      Creating an economic model to reward community contributors while maintaining sustainable operations at 1/1000th the cost of traditional travel guide publishers.
+      Technical Stack: Python, LangChain, API,, PostgreSQL, AWS (Lambda, S3, EC2), Docker, Wordpress, LLMs
+
+  - role: AI-Powered Robotic Companion Platform - Open Source- Jan 2025- Mar 2025 (expected end)
+    number_bullets: 2
+    text: |
+      Building an open-source platform to democratize LLM-powered robotics with basic computer vision capabilities, enabling anyone to create intelligent robotic companions and fine-tune its  LLM brain within a weekend without specialized expertise.
+      Fine-tuned 1.5b SLM (Granite) to provide similar results as closed-source reasoning LLMs, reducing inference costs by 85% while maintaining 92% of response quality.
+      Built modular architecture allowing flexible integration of sensors, actuators, and processing units adaptable to different hardware configurations and price points.
+      Collaborated with 6 open-source contributors globally to expand functionality and hardware compatibility across diverse environments and use cases.
+      Currently creating comprehensive documentation, including step-by-step guides, hardware recommendations, and optimization techniques to lower the barrier to entry.
+      GitHub: github.com/kamalkantsingh10/chopsticks1. Technical Stack: Python, Raspberry Pi, Computer Vision (OpenCV, MediaPipe), TensorFlow Lite, C++, WebSockets, llama, GGUF Quantization

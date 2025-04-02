@@ -1,0 +1,24 @@
+selenium: "/home/kamal/Garage/Files/Factory123/misc_files/chromedriver"
+google_cred_path: "/home/kamal/oneHumanCompany/OneHumanCompany/factory1234-f0cb87217edb.json"
+logging:
+  path: "./logs/"
+  level: "INFO"
+  reflection_log: "./logs/reflection.jsonl"
+job_search:
+  drop_path: "/home/kamal/oneHumanCompany/files/job_Search/json/drop"
+  processed_path: "/home/kamal/oneHumanCompany/files/job_Search/json/processed"
+  columns_to_save:
+    - title
+    - primaryDescription
+    - detailURL
+    - description
+    - location
+    - posterId
+    - companyName
+    - createdAt
+    - scrapedAt
+  primary_key: "detailURL"
+  default_val:
+    status: "raw"
+    match: "0"
+    confidence: "10%"

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LPFJS Settings</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f3f2ef;
+      color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08);
+    }
+    
+    h1 {
+      margin-top: 0;
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.9);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      padding-bottom: 15px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    
+    input[type="text"], input[type="url"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    
+    input[type="checkbox"] {
+      margin-right: 8px;
+    }
+    
+    .btn {
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+      border-radius: 16px;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .btn:hover {
+      background-color: #004182;
+    }
+    
+    .btn:active {
+      background-color: #00295c;
+    }
+    
+    .status {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    
+    .status.success {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    
+    .status.error {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LPFJS Settings</h1>
+    
+    <form id="settingsForm">
+      <div class="form-group">
+        <label for="apiUrl">API URL (Flask Backend)</label>
+        <input type="url" id="apiUrl" name="apiUrl" placeholder="http://localhost:5000">
+        <p style="margin-top: 5px; font-size: 12px; color: rgba(0, 0, 0, 0.6);">
+          The URL of your Flask backend server
+        </p>
+      </div>
+      
+      <div class="form-group">
+        <label for="enableNotifications">
+          <input type="checkbox" id="enableNotifications" name="enableNotifications">
+          Enable notifications
+        </label>
+      </div>
+      
+      <button type="submit" class="btn">Save Settings</button>
+    </form>
+    
+    <div id="status" class="status" style="display: none;"></div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
