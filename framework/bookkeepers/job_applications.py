@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Dict, List, Optional, Any
 from notion_client import Client
-from framework.connecters.notion import NotionConnection
+from framework.connectors.notion.connector import NotionConnection
 
 
 class JobApplicationManager:
@@ -59,6 +59,10 @@ class JobApplicationManager:
             
         Returns:
             Dict: The created application
+            
+        Raises:
+            ValueError: If status, confidence, or referral is invalid
+            ValueError: If application with same company and role already exists
         """
         # Validate status
         if status not in self.STATUS_OPTIONS:
@@ -72,11 +76,23 @@ class JobApplicationManager:
         if referral not in self.REFERRAL_OPTIONS:
             raise ValueError(f"Referral must be one of: {', '.join(self.REFERRAL_OPTIONS)}")
         
+        # Check for existing application with same company and role (case insensitive)
+        existing_apps = self.search_applications(company=company, role=role)
+        for app in existing_apps:
+            # Extract company and role from the existing application
+            app_company = self._extract_text_property(app, "Company")
+            app_role = self._extract_text_property(app, "Role")
+            
+            # Case insensitive comparison
+            if (app_company.lower() == company.lower() and 
+                app_role.lower() == role.lower()):
+                raise ValueError(f"Application for {company} - {role} already exists")
+        
         # Create the title: "Company - Role"
         title = f"{company} - {role}"
         
-        # Get current date in ISO format
-        current_date = datetime.now().isoformat()
+        # Get current date in ISO format with timezone information
+        current_date = datetime.now().astimezone().isoformat()
         
         # Create properties for the new application
         properties = {
@@ -216,3 +232,34 @@ class JobApplicationManager:
         
         # Get the matching applications
         return self.notion.get_all_rows(self.database_id, filter_params, sorts)
+    
+    # Helper method for extracting text from Notion properties
+    def _extract_text_property(self, page: Dict, property_name: str) -> str:
+        """
+        Helper method to extract text from a Notion page property.
+        
+        Args:
+            page (Dict): The Notion page
+            property_name (str): Name of the property
+            
+        Returns:
+            str: Extracted text or empty string if not found
+        """
+        try:
+            prop = page.get("properties", {}).get(property_name, {})
+            
+            # Handle rich_text properties
+            if prop.get("type") == "rich_text":
+                rich_text = prop.get("rich_text", [])
+                if rich_text:
+                    return rich_text[0].get("plain_text", "")
+            
+            # Handle title properties
+            elif prop.get("type") == "title":
+                title = prop.get("title", [])
+                if title:
+                    return title[0].get("plain_text", "")
+                    
+            return ""
+        except (KeyError, IndexError):
+            return ""

@@ -1,7 +1,7 @@
 selenium: "/home/kamal/Garage/Files/Factory123/misc_files/chromedriver"
 google_cred_path: "/home/kamal/oneHumanCompany/OneHumanCompany/factory1234-f0cb87217edb.json"
-logging:
-  path: "./logs/"
+databases:
+  applications: "1c96a5cd78048037be46febb2b92eb4a"
   level: "INFO"
   reflection_log: "./logs/reflection.jsonl"
 job_search:
