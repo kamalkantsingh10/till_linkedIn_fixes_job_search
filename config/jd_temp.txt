@@ -1,51 +1,73 @@
- About the job
+Platform Management & Delivery Lead PBWM Chief Operating Office (COO)
 
-Zalando fulfills more than a hundred million customer orders every year and volumes are increasing. Fulfillment Core within Zalando builds and operates systems that are at the core of Zalando’s platform strategy and ensure timely, efficient, and correct delivery of every one of our customers’ 185+ million orders every year.
+Overall purpose of role
 
-At Zalando and in Fulfillment Core, we are committed to providing equal opportunities for career advancement and promotions to all employees, following our inclusiveness principles . We welcome applications for both full-time and part-time positions, as we believe in providing flexible work options to support our employees' diverse needs.
+The role holder will take a leading responsibility for delivery implementation & execution of the Regional COO activity (including Technology, Operations & Products) for Private Bank Wealth Management on an end-to-end basis, to deliver a high-performance business. The role requires a comprehensive understanding of the regulatory environment, framework and operational concepts & principles which govern the Private Bank business in Switzerland. They will work closely with key PBWM stakeholders to define and execute the Private Bank & Wealth Management COO vision and strategy to support the growth aspirations of the Barclays PBWM business, focused on building a robust and scalable business to meet / exceed near and long-term goals around our Client, Colleagues, Citizenship, Conduct and Company value statements.
 
-As a Principal Product Manager of the Fulfillment Network , you will shape products that are foundational for optimizing our network inventory and fulfillment processes. As the digital twin of our logistics network the Fulfillment Network services provide reliable, consistent, accurate and precise information on our logistics resources and capabilities.
+Responsibility for the implementation of effective Platform procedures and practices, benchmarked to the highest level of global standards, maintaining sound risk management; delivering great client service whilst ensuring that control and financial crime measures are held to the global standard. The role will be focused on building increased efficiency and optimisation across the existing operating platform to deliver outstanding client and colleague centric journeys.
 
-In collaboration with your internal clients in warehouse and transport management, fulfillment planning and operations you build the core operating system of our fulfillment platform. Your decisions will shape significantly how we think about fulfillment and developing our platform now and in the future. By discovering and launching new platform services you will enable completely new, more sustainable and convenient delivery experiences for our customers.
+Key Accountabilities
 
-You will have a significant impact on the reliability and efficiency of the various fulfillment and return models in Zalando, like Zalando Fulfillment & Return Solutions, fulfillment from Retail Stores or fulfillment by Zalando Partner. Help us achieve our vision of a smart Fulfillment Network that manages and optimizes itself while providing the best delivery experience to our customers in an affordable way.
+    Responsibility for supporting effective cost budgeting and control; head count management and for ensuring that fixed and varied costs are managed appropriately in line with business requirements. 
+    Lead and structure Regional COO through strategic change working collaboratively with colleagues across the COO and PBWM Business, and through governance of outsourced functions (BX). Ensure that all activities are carried out in full compliance with regulatory requirements, Barclays Operational Risk Framework and internal Barclays Policies and Standards
+    Key enabler for the delivery of specific projects as identified by the business, some centrally and some locally. 
+    Platform owner for all systems, processes and procedures across the Platform and spanning the Client Journeys on an end-to-end basis; Onboarding, Investments & Advice, Credit, Digital and Colleague.
+    Transitioning from a product led to client journey led model. Responsibility for creating a customer and client focused organisation and culture, with simpler journeys, continuous innovation, and omni-channel experience with an Agile approach. 
+    Developing and nurturing skills and capabilities within the function so that all colleagues have the tools, techniques, and frameworks they need to be client focused on every interaction. 
+    Managing risk and controls effectively and collaborating across Barclays to design and embed controls in the right way. Championing a culture where all colleagues understand and follow the Barclays Risk Management framework, taking personal accountability for ensuring that processes, risks, and controls are applied in a way that achieves positive outcomes for the bank, its customers, and its clients. 
+    Deliver Regulatory, Risk & Control Management and remediation activities, records management, Business Continuity Management (BCM), Know your client (KYC), Anti Money Laundering (AML), investment services, client reporting service levels, appraisal, reporting and tracking Risk Events and Control Log.
+    Ensure delivery of processes and its resources, lead interactions with other functions to achieve the defined functional strategic objectives. Expected to ideate, lead and deliver solutions on process improvement and eliminating recurring issues.
 
-You’ll find our Berlin campus and HQ in the vibrant area of Friedrichshain. With amazing views of the Spree river and East Side Gallery, it’s a campus designed to inspire. Berlin is the city that has shaped our business. Are you up for a new experience in one of the most vibrant, diverse, and green cities in Europe?
+Stakeholder Management and Leadership
 
+    Provide support to the PBWM COO & Barclays Switzerland Management Team in the delivery of the operational objectives, ensuring a smooth, effective, and compliant operation of the business environment. 
+    Collaborate with the PBWM business & other stakeholders to understand client and business needs, incorporating feedback into the PBWM COO strategic objectives. 
+    Provide leadership and support as well as strategic guidance where required, of the wider business objectives and goals.
+    Contribute to local, regional and global Operations teams, including outside of specific subfunction.
+    Collaborative leadership, promoting a cross-functional approach to achieving organisational objectives.
+    Achieving timeliness, consistency, quality, completeness, and accuracy in reporting to stakeholders 
+    Role holder will represent PBWM / PBWM COO when dealing with internal and external auditors and regulators where required, being the accountable executive for any relevant audit/regulatory deliverables. They will also have oversight of the external relationships maintained across the franchise such as contractual and outsourcing arrangements. 
+    Driving a cultural transformation to introduce new perspectives into design and decision making. Embedding a continuous improvement mindset. Collaborative leadership, promoting a cross-functional approach to achieving organisational objectives. 
 
-INCLUSIVE BY DESIGN
+Decision-making and Problem Solving
 
+    Promote, encourage the identification of opportunities for process optimisation and efficiency gains, collaborating with various departments to streamline workflows and enhance overall organisational effectiveness. 
 
-At Zalando, our vision is to be inclusive by design. And this vision starts with our hiring - we do not discriminate on the basis of gender identity, sexual orientation, personal expression, ethnicity, religious belief, or disability status. You are welcome to leave out your picture, age, or marital status from your application. We only assess candidates on their qualifications and merit.
+    Promote, enable and support PBWM COO to achieve its 3-year strategy to enable significant, sustainable growth of the PBWM franchise.
+    The role must operate both within the global structure and locally with the ability to evaluative, make judgement and execute. Given the cross functional and broad business in location, the ability to deal with complex and numerous issues through to resolution is critical.
+    Driving & enabling increased productivity with a customer and client first mindset. Be client obsessed at all times across all tasks and deliveries. 
+    Support the business to deliver improvements in client satisfaction scores and help provide management information to monitor and evidence improvements.
+    The role holder will have the ability to foresee and solve problems using a rational approach and by taking ownership of problems, adopting a mature, commercial approach to all tasks. They will operate across a complex cross-booking, multi-location focused operating model. Role holder will need to constantly be mindful of navigating all jurisdictional regulatory bodies across all applicable booking locations and evolving cross border considerations. 
 
-We want to provide you with a great candidate experience. Feel free to inform us of any accommodations you may need, so we can best support you throughout the hiring process.
+Risk and Control Objective
 
-do.BETTER - our diversity & inclusion strategy https //corporate.zalando.com/en/our-impact/dobetter-our-diversity-and-inclusion-strategy
+Take ownership for managing risk and strengthening controls in relation to the work you & your teams do.
 
-Our employee resource groups https //corporate.zalando.com/en/our-impact/our-employee-resource-groups
+Person Specification
 
+    Promoting a culture of inclusion and diverse perspectives, where collaboration is seen as essential for the achievement of shared objectives and agendas.
+    Setting a clear vision where business areas and functions understand their contribution to the future success of the organisation.
+    Creating an open culture, in which understanding own strengths and development areas is actively encouraged and valued. Supporting a culture where the development of people skills is given the same priority as technical skills.
+    Strong understanding of relevant and up-to-date, technical knowledge, applications, techniques and changing regulatory environment and its impact on Operations in the Switzerland Private Bank market and globally.
+    Setting challenging objectives for personal, team and functional improvement and holding others to account in delivering these
+    Taking the lead in driving succession planning, ensuring the organisation retains and develops the key talent needed for the future.
+    Creating and maintaining a culture in which trust and mutual respect are valued, challenging people and systems that do not support this. Using complex influencing strategies and conveying a strong vision to achieve results and obtain buy-in across the organisation.
+    Promoting a culture in which the needs and perspectives from a wide range of stakeholders and partners are at the forefront of decision making.
+    Shaping and driving a culture of review and improvement across the organisation. Striving to continually improve business processes that impact positively on the business and uphold the values.
+    Setting the standards of, and assumes accountability for, performance required to achieve the organisation’s future goals and priorities. 
+    Acting as a catalyst for change and inspiring confidence in stakeholders with the quality and conviction of their vision, building support and sponsorship at all levels and ensuring the need for change is embedded across the organisation.
 
-WHAT WE’D LOVE YOU TO DO (AND LOVE DOING)
+Essential Skills/Basic Qualifications:
 
+    The ideal candidate will have a successful and extensive track record working in a financial services institution with strong evidence of career progression and high achievement. In addition, it is preferred that candidates have a strong academic record.
+    Sound knowledge of the operational procedures and regulatory requirements of a Global Private Bank and Wealth business, ideally in Switzerland or significant experience in a banking operations role.
+    Language skills: The right candidate will have strong relationship building skills, senior management exposure and excellent communication skills are an essential requirement. Excellent command of the English language with strong written and verbal communication skills is crucial.
+    The successful candidate will be an action-orientated, proactive individual and a structured thinker with an appreciation for political sensitivity with the ability to multi-task in a high-pressure environment.
+    The ideal candidate will demonstrate self-motivation, logical thinking, influencing and presentation skills and an ability to communicate with ease and credibility with senior leaders. Collegiate with a strong team approach and ability to network and build relationships across teams will be very important.
+    Able to operate in a highly matrixed and business-technology engagement to engender support, foster partnerships with the business and be seen as a strong service provider.
+    The individual must also possess inspirational leadership skills, to establish, motivate and manage a high performing team.
 
+Desirable skills/Preferred Qualifications:
 
-     You act as owner of a core platform product defining and driving a medium to long term roadmap and backlog. 
-     In collaboration with other product and business leaders across Zalando you discover new network capabilities and platform services with a solid understanding of the trade-offs in the logistic supply chain. 
-     You lead complex, cross-team initiatives that solve customer problems and drive business impact and use data-driven insights and your understanding of Zalando's fulfillment models to make informed decisions and enhance customer lifetime value. 
-     You apply best-practice product methodologies to guide projects from problem definition to solution delivery and enjoy collaborating with diverse teams to unlock the potential of our central fulfillment platform, connecting various aspects of our business. 
-     You author/co-author product documents including a product roadmap, problem and pitch papers, definition of business requirements, and functional specifications. 
-
-
-
-WE’D LOVE TO MEET YOU IF
-
-
-
-     You understand your customers, users, stakeholders and your product’s capabilities inside out. You have attention to detail and a deep love for a good metric that shows the quality and performance of your product. 
-     Your analytical mind allows you to think in patterns, create scalable domain models and define generic capabilities out of specific use cases. You think “platform”, not only “feature”. 
-     That also means you can break complex problems up into bite-size pieces and are able to explain them to stakeholders and engineers. You can keep it simple. 
-     You know methods to find the most valuable opportunities, slicing your solution to maximize return on investment and therefore revenue, efficiency or customer satisfaction. 
-     You have strong communication (verbal, written and visual) skills and are able to manage projects with many dependencies. 
-     You start with a “yes” and remain a curious mind, when engaging with your stakeholders or engineers. You don’t necessarily end with a “yes”, though. You stay calm in times of uncertainty or ambiguous priorities and help the teams to gain focus again. 
-
-
+    Leadership and Communication
+    Operational Excellence

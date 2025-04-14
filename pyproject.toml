@@ -16,6 +16,10 @@ langchain-groq = "^0.3.2"
 langchain-community = "^0.3.20"
 langchain-ollama = "^0.3.0"
 python-dotenv = "^1.1.0"
+langgraph = "^0.3.27"
+pydantic-ai = "^0.0.55"
+pygame = "^2.6.1"
+streamlit = "^1.44.1"
 
 
 [build-system]

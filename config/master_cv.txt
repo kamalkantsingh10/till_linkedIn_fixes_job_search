@@ -25,7 +25,7 @@ LED Technical development of 5 technical workstreams with a  PMO of 3 Technical 
 Launched in Japan, achieved entitlement of $30M in the first year through improved network speed and cost. This was done within 6 months. We project to deploy another 50 min in the year 2
 Prototyped a framework to execute ML/Optimization models with hundreds of 'what-if' scenarios, resulting in a network plan $14M cheaper (vs baseline). This showed a interactive dashboard that network planners can use to evaluate these and choose the best one. This impacted decision based on data backed on more than 100 metrics. We did a simulation with 10000 runs that lead to sensitivity analysis of various factors like transportations buildings
 Led monthly/quarterly reviews with senior stakeholders including VPs in JP, EU and NA with presence of 40 stakeholder teams
-Technical Stack: AWS (EC2, S3, Lambda, Containerization, CloudWatch), Python, SQL, Optimization Tools, CI/CD, Power BI
+Technical Stack: AWS (EC2, S3, Lambda, Containerization, CloudWatch), Python, SQL, Optimization Tools, CI/CD, Power BI, dev ops
 
 TECHNICAL PROGRAM MANAGER, Optimization & ML Research Lab, Luxembourg | Jun 2019 - Nov 2021
 Owned complete product lifecycle from research to production of optimization models/algorithms to transform network planning and decision making in the EU. Responsible for establishing development standards, deployment standards and  technical governance framework in the newly established dev team in the EU.
@@ -71,11 +71,14 @@ SOFTWARE ENGINEER, Trade Monitoring & Compliance, Pune | Nov 2008 - Sep 2011
 ONGOING INDEPENDENT PROJECTS --------------------------------------------------------------------------------------------------------------
 
 opentravelerproject.com (link) , July 2024- Present
-Leading development of a stealth-mode community platform that leverages crowdsourced travel experiences and AI to create free but professional-quality travel guides for .
-Built the first prototype (thegeektraveler.com) that demonstrated viability by reducing content creation time from 3 days to 2 hours per guide and improving accuracy by 40%.
+Leading development of a stealth-mode community platform that leverages crowdsourced travel experiences and AI to create free but professional-quality travel guides for. Goal is to build most successful passion project where traveler manage and build content for other travellers. Goal is to automate 90% of effort required to create a travel guide for a city/place using AI. 
+Built the first prototype (thegeektraveler.com) 
 Engineered agentic AI system that autonomously collects, validates, and synthesizes travel data from multiple sources, reducing production costs by 88% (from $2.10 to $0.25 per guide) while maintaining quality metrics above 85%.
 Secured participation agreements with 9 travellers across Europe to build initial content library and set up community.
+1st prototype launched (thegeektraveler.com) for Vianden Luxembourg that achieved. 1st page ranking within 3 months.
+Scanned 200+ forums to understand what travellers are looking for and and created 
 Developing proprietary knowledge-graph architecture to connect traveler experiences with location data, creating unique, authentic, and verifiable travel content.
+Did deep market research to understand what travellers look for. Scraped internet forums to understand the questions people are looking for when they travel.
 Creating an economic model to reward community contributors while maintaining sustainable operations at 1/1000th the cost of traditional travel guide publishers.
 Technical Stack: Python, LangChain, API,, PostgreSQL, AWS (Lambda, S3, EC2), Docker, Wordpress, LLMs
 

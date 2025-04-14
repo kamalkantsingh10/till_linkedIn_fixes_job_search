@@ -41,24 +41,60 @@ class CV_Builder:
         ai_msg = self.llm.invoke(messages)
         return ai_msg.content
         
-    
-    def generate_tagline_skills(self, jd:str, user_input:str)-> str:
+        
+    def generate_tagline(self, jd:str, user_input:str)-> str:
         messages = [
         (
         "system",
         """You are a professional CV/resume writer specializing in leadership positions.
 
-            Based on the job description I provide and my current CV:
+            Please generate a concise tagline for my CV in pipe-delimited format that highlights my qualifications for the role I'm targeting.
+            Format: [Professional Identity] | [Years of Experience] | [Evidence-Based Strength 1] | [Evidence-Based Strength 2] | [Evidence-Based Strength 3] | [Evidence-Based Strength 4]
+            Important requirements:
 
-            a. Create a compelling professional tagline (maximum 15 words) that I can place below my name in my CV header. This should highlight my key value proposition for this leadership role. Mention 15+ years of experience
+            Each section must be a phrase of 5-6 words maximum
+              -The first section should present a truthful yet versatile professional identity that:
+                    -Accurately reflects my core expertise and level
+                    -Is adaptable to related roles I'm qualified for
+                    -Avoids specific job titles that may limit perception
+              -The second section should indicate my years of experience
+              -The remaining four sections must highlight specific, quantifiable achievements or evidence from my CV that directly support my candidacy
+              -Include only truthful metrics, results, or concrete examples from my actual experience
+              -Include metrics, results, or concrete examples wherever possible (e.g., "Increased sales by 45%" rather than "Strong sales skills")
+              -Prioritize measurable accomplishments that match key requirements in the job description
+              -Keep the entire tagline compact and impactful
 
-            b. Generate a skills section organized into three categories (including one for technical skills), with 6 skills per category. For each skill:
+            Based on my CV and the job description provided below, please create this evidence-driven tagline
+
+        """
+            ),
+            ("human", f"""JD here:-----
+             {jd}
+
+            CV here:
+            {master_cv}
+
+            also consider directions from user:---
+            {user_input}
+            """),
+        ]
+        
+        ai_msg = self.llm.invoke(messages)
+        return ai_msg.content
+    
+    def generate_skills(self, jd:str, user_input:str)-> str:
+        messages = [
+        (
+        "system",
+        """You are a professional CV/resume writer specializing in leadership positions.
+
+            Generate a skills section organized into three categories (including one for technical skills), with 6 skills per category. For each skill:
             i. Ensure all essential skills from the job description are included
             ii. Keep each skill description between 3-6 words
             iii. Balance the requirements in the job description with my demonstrated experience
             iv. Prioritize leadership competencies relevant to the position
 
-            Format the skills in a clean, scannable layout that I can easily transfer to my CV.
+            Format the skills in a clean, scannable plain text that I can easily transfer to my CV. provide plain text (not markdown) with each skill in a sperate line
 
         """
             ),
@@ -109,10 +145,10 @@ class CV_Builder:
                 BULLET POINT STRUCTURE
                     [Action Verb] [key achievement] [most impressive metric]
                     
-                EXAMPLES
-                    -Spearheaded transformation of 23+ innovation centers with 241+ people and $150M -budget.  Developed processes across 19+ product roles; delivered first SaaS release.
-                    -Improved security cloud business by triple digits; generated $22.5M+ annually.
-                    -Monetized data via IoT offerings and ML analytics with 45+ counterparts.
+                EXAMPLES (need plain text not list. each point in new line)
+                    Spearheaded transformation of 23+ innovation centers with 241+ people and $150M -budget.  Developed processes across 19+ product roles; delivered first SaaS release.
+                    Improved security cloud business by triple digits; generated $22.5M+ annually.
+                    Monetized data via IoT offerings and ML analytics with 45+ counterparts.
 
             """
                 ),
@@ -146,14 +182,17 @@ class CV_Builder:
         bullets= self.build_bullets(jd_analysis=jd_analysis, user_input=user_input)
         print(f"Bullets created \n {bullets}")
         #step 3 - get tagline and skills
-        tagline_skills= self.generate_tagline_skills(jd=jd, user_input=user_input)
-        print(f"taglines generated: \n {tagline_skills}")
+        tagline= self.generate_tagline(jd=jd, user_input=user_input)
+        print(f"tagline generated: \n {tagline}")
+        skills= self.generate_skills(jd=jd, user_input=user_input)
+        print(f"skills generated: \n {skills}")
         return f"""
         ************************************************************************************
         {bullets}
         -------------------
-        {tagline_skills}
-        
+        {tagline}
+        -------------------
+        {skills}
         ----------------------------------
         jd analysis
         {jd_analysis}
